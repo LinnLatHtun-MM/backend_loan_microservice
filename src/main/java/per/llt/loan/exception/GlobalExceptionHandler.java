@@ -72,7 +72,7 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
     }
 
     @ExceptionHandler(LoansAlreadyException.class)
-    public ResponseEntity<ErrorResponseDto> handleCustomerAlreadyException(
+    public ResponseEntity<ErrorResponseDto> handleLoansAlreadyException(
             LoansAlreadyException exception, WebRequest webRequest) {
 
         ErrorResponseDto errorResponseDto = new ErrorResponseDto(
