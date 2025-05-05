@@ -43,3 +43,6 @@ ENTRYPOINT ["java","-jar","Loan-0.0.1-SNAPSHOT.jar"]
 
 ## 12. Push image to the Docker Hub Repository
 #      docker image push docker.io/linnlathtun99/loan:2025-04-17_22-14
+
+## 13. Pull image from the Docker Hub Repository
+#      docker pull linnlathtun99/card:2025-04-17_22-24
